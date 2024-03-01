@@ -23,7 +23,7 @@ Downloads specified ADMX package and extracts it in desired location.
 
 %install
 mkdir -p %buildroot/%_bindir
-install -D %name.sh %buildroot/%_bindir/%name
+install -D %name.py %buildroot/%_bindir/%name
 
 %files
 %doc README.md
